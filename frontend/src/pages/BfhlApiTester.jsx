@@ -5,7 +5,7 @@ const App = () => {
   const [response, setResponse] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [apiUrl, setApiUrl] = useState('http://localhost:5000/bfhl');
+  const [apiUrl, setApiUrl] = useState('https://bajaj-finserv-seven-umber.vercel.app/bfhl');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
